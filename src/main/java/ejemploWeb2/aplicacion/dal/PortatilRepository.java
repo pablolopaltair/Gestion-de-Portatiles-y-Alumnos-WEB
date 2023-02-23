@@ -11,6 +11,6 @@ import org.springframework.data.repository.CrudRepository;
  *         al "extends CrudRepository"
  */
 @Repository
-public interface PortatilRepository extends CrudRepository<Portatil, Integer> {
+public interface PortatilRepository extends CrudRepository<Portatil, Long> {
 
 }
